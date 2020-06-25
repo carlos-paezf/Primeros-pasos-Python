@@ -1,0 +1,6 @@
+Ejecutar consola de windows como administrador e ingresar el comando
+	pip install pyinstaller
+Dirigirse al directorio del archivo que se pretende generar el ejecutable
+Si se tiene una imagen .ico, ingresar el comando:
+	pyinstaller --windowed --onefile --icon=./logo.ico <NombreArchivo.py>
+En el directorio, dirigirse a la carpeta dist y alli se encontrara el archivo .exe
