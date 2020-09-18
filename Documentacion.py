@@ -19,8 +19,8 @@ class Areas:
 
 print(Areas.areaCuadrado(5)) #<--------Imprimir la funcion
 print(Areas.areaCuadrado.__doc__) #<-----Imprimir la documentacion en consola
-help(Areas.areaCuadrado)
 
+help(Areas.areaCuadrado)
 help(Areas.areaTriangulo)
 
 help(Areas)
